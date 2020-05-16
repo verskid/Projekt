@@ -7,5 +7,6 @@ public class Account {
   public Account(double bal) {
     balance = bal;
   }
-
+public double getBalance() {
+    return balance;
 }
