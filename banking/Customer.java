@@ -10,4 +10,7 @@ public class Customer {
     firstName = f;
     lastName = l;
   }
+  public String getFirstName() {
+	    return firstName;
+  }
 }
