@@ -9,4 +9,8 @@ public class Account {
   }
 public double getBalance() {
     return balance;
+  }
+  public boolean deposit(double amount) {
+    balance = balance + amount;
+    return true;
 }
