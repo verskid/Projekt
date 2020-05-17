@@ -6,5 +6,7 @@ public class TestBanking {
     Customer customer;
     Account  account;
     
-  }
-}
+  // Create an account that can has a 500.00 balance.
+    System.out.println("Creating the customer Jane Smith.");
+    customer = new Customer("Jane", "Smith");
+    
