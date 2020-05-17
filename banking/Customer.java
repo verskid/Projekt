@@ -6,4 +6,10 @@ public class Customer {
   private String   firstName;
   private String   lastName;
 
+  public Account getAccount() {
+	    return account;
+  }
+  public void setAccount(Account acct) {
+	    account = acct;
+  }
 }
