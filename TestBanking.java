@@ -3,6 +3,7 @@ import banking.*;
 public class TestBanking {
 
   public static void main(String[] args) {
+    GUI gui = new GUI();
     Customer customer;
     Account  account;
     
